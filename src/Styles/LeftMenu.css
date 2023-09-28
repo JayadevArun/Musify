@@ -287,4 +287,37 @@ font-size: 14px;
     transition: width 250ms linear;
 }
 
+@media screen and (max-width: 550px) {
+    .leftMenu {
+        width: 64px;
+        min-width: 64px;
+    }
+
+    .leftMenu .searchBox {
+        display: none;
+    }
+
+    .leftMenu .trackList {
+        display: none;
+    }
+
+    .leftMenu .playListContainer {
+        display: none;
+    }
+
+    .leftMenu .MenuContainer ul li a span {
+        display: none;
+    }
+
+    .leftMenu .MenuContainer ul li a i {
+        font-size: 26px;
+    }
+
+    .leftMenu .MenuContainer ul li {
+        margin: 25px 0;
+    }
+
+    .leftMenu .logoContainer h2 {
+        margin-left: 20px;
+    }
 }
