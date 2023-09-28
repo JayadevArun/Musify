@@ -16,12 +16,12 @@ function MenuPlayList() {
 
             {
                 Playlist && Playlist.map((list) => (
-                    <div className='playList'>
+                    <div className='playList' key={list.id}>
                         <i className='list'>
                             <BsMusicNoteList />
                         </i>
 
-                        <p>Sample</p>
+                        <p>{list.name}</p>
             
                         <i className='trash'>
                             <BsTrash />
@@ -30,7 +30,6 @@ function MenuPlayList() {
                 ))
             }
 
-            
         </div>
     </div>
   )

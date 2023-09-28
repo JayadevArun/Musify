@@ -8,8 +8,8 @@ function TrackList() {
     <div className='trackList'>
         <div className='top'>
             <img src={Track} alt=''/>
-            <p>
-                Sample <span>Artist</span>
+            <p className='trackName'>
+                Sample <span className='trackSpan'>Artist</span>
             </p>
         </div>
         <div className='bottom'>
