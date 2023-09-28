@@ -238,4 +238,53 @@ font-size: 14px;
     background: rgba(255, 255, 255, 0.1);
     appearance: none;
 }
+
+/*chrome or sasfari*/
+.trackList .bottom input::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #49e12e;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
+.trackList .bottom input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    border: 2px solid #000;
+    cursor: pointer;
+    position: relative;
+    margin: -2px 0 0 0;
+    z-index: 3;
+    box-sizing: border-box;
+    transition: all 250ms linear;
+}
+
+/*firefox*/
+.trackList .bottom input::-moz-progress-bar {
+    background: #49e12e;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
+.trackList .bottom input::-moz-range-thumb {
+    background: #49e12e;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
 }
