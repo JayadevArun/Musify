@@ -117,8 +117,65 @@
     transition: 0.3s;
 }
 
-.MenuContainer ul li:hover a, 
+.MenuContainer ul li:hover a,
 .MenuContainer ul li.active a {
     color: #f1f1f1;
     transition: 0.3s;
+}
+
+.playListContainer {
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.playListContainer .nameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #848484;
+}
+
+.playListContainer .nameContainer p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.playListContainer .nameContainer i {
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.playListContainer .playListScroll {
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.playListContainer .playListScroll .playList {
+    display: flex;
+    align-self: center;
+    color: #848484;
+    margin: 10px;
+}
+
+.playListContainer .playListScroll .playList i {
+    font-size: 18px;
+}
+
+.playListContainer .playListScroll .playList .list {
+    margin-right: 15px;
+}
+
+.playListContainer .playListScroll .playList .trash {
+    margin-left: auto;
+}
+
+.playListContainer .playListScroll .playList p {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline;
 }
