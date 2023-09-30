@@ -80,6 +80,70 @@
     padding: 0px 15px;
 }
 
+.songAttributes .bottom .progressBar {
+    width: 78%;
+    position: relative;
+    height: 5px;
+    outline: none;
+    border: none;
+    appearance: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+/*chrome or safari*/
+.songAttributes .bottom .progressBar::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #848484;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.songAttributes .bottom .progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+/*firefox*/
+.songAttributes .bottom .progressBar::-moz-range-track {
+    width: 78%;
+    height: 5px;
+    outline: none;
+    border: none;
+    appearance: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.songAttributes .bottom .progressBar::-moz-range-progress {
+    background: #848484;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.songAttributes .bottom .progressBar::-moz-range-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
 
 .songAttributes .bottom .currentTime,
 .songAttributes .bottom .duration {
