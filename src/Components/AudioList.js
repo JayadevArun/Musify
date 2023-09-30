@@ -91,7 +91,7 @@ function AudioList() {
 
         </div>
 
-        <MusicPlayer />
+        <MusicPlayer song={song} imgSrc={img} />
 
     </div>
   )
