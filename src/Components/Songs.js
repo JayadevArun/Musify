@@ -4,89 +4,89 @@ const Songs = [
       favourite: false,
       songName: "Bella Ciao",
       artist: "El Profesor",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fbellaciao.mp3?alt=media&token=e1dd8233-3521-4574-8957-d51af9a5db5c",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FLa%20Casa%20De%20Papel%20-%20Bella%20Ciao%20%5BLyrics%5D%20(Money%20Heist)%20(320%20kbps).mp3?alt=media&token=cc64ee9e-3962-479a-8322-741e077810a1",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fmoneyheist.jpg?alt=media&token=32baf3d7-0ab5-47d5-ba48-554792cea117",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fbellaciao.jpeg?alt=media&token=ce1e7833-6354-41f4-a579-738589e591b9",
     },
     {
       id: 2,
       favourite: false,
       songName: "Beast",
       artist: "Anirudh Ravichander",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fbeast.mp3?alt=media&token=ebf29a01-079b-44eb-969a-57ee66a15ee8",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FBeast%20Mode%20-%20Video%20Song%20_%20Beast%20_%20Thalapathy%20Vijay%20_%20Nelson%20_%20Anirudh%20_%20Sun%20Music%20(320%20kbps).mp3?alt=media&token=da536fe1-9624-4643-94a7-2f2a3ac1e60a",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fbeast.jpg?alt=media&token=7cc7c33e-8eac-4f7a-858d-75e75d4b609c",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fbeast.jpeg?alt=media&token=f764c204-81a7-4533-afdf-4112b0c339f3",
     },
     {
       id: 3,
       favourite: false,
       songName: "Joker - Rock and Roll",
       artist: "Hildur Guðnadóttir",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fjoker.mp3?alt=media&token=9e79751a-726d-4359-8a26-116db925f6ff",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FJoker%20BGM%20Song%20(Bass%20Boosted)%20(320%20kbps).mp3?alt=media&token=f7366161-69a9-4328-9920-64af8b5a287c",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fjoker.jpg?alt=media&token=c3955b3c-7efd-4127-b119-6c6343dbc414",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fjoker.webp?alt=media&token=fb5ac7ef-8ed3-4651-a6e5-8a26578d3111",
     },
     {
       id: 4,
       favourite: false,
       songName: "I Am A Peaky Blinder",
       artist: "Otnicka",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fpeaky-blinder.mp3?alt=media&token=2ddb5cfb-f4e0-4604-b77c-a7f63894d3ec",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FI'm%20a%20Peaky%20Blinder%20(%20Official%20Video%20)%20(320%20kbps).mp3?alt=media&token=81002b44-9f64-466f-9344-4ec12114d898",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fpeakyblinder.jpg?alt=media&token=b83fbf86-37ef-47c2-948e-3447a22a2d07",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fpeakyblinder.jpg?alt=media&token=b4ebb510-1bd0-463a-ab72-728e9639b12e",
     },
     {
       id: 5,
       favourite: false,
       songName: "Naanga Vera Maari",
       artist: "Yuvan Shankar Raja",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fvalimai.mp3?alt=media&token=97c769ab-e2fb-4562-90aa-18c73b320bde",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FValimai%20-%20Naanga%20Vera%20Maari%20Video%20_%20Ajith%20Kumar%20_%20Yuvan%20Shankar%20Raja%20(320%20kbps).mp3?alt=media&token=e1181609-059f-40ef-a1e7-2e2c043b9e9c",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fvalimai.jpg?alt=media&token=e11b839d-2514-4e1a-aa3a-20db3540a837",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fnaangaveramaari.jpg?alt=media&token=17263604-d679-4f6c-ab1b-67a435affa3b",
     },
     {
       id: 6,
       songName: "Your Woman",
       artist: "White Town",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FWhite-Town-Your-Women.mp3?alt=media&token=91817445-98ba-4a99-a4b4-6218f2742eb3",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FWhite%20Town%20-%20Your%20Woman%20(Official%20HD%20Video)%20(320%20kbps).mp3?alt=media&token=2780b14c-ee68-4d1a-bd4f-517176e300db",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fwhitetown.jpg?alt=media&token=25e1ec0c-24ec-4a11-a7a7-e55ec1fc50cf",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fyourwoman.jpg?alt=media&token=321284f8-5887-4294-84d7-ea23f78be462",
     },
     {
       id: 7,
       favourite: false,
       songName: "Charlie",
       artist: "Gopi Sundar",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FCharlie.mp3?alt=media&token=5a129114-bb31-4a5a-95b7-1767829df21e",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FCharlie%20__%20Chundari%20Penne%20Song%20Official%20_%20Dulquer%20Salmaan%20_Gopi%20Sunder_%20(320%20kbps).mp3?alt=media&token=43cdbdb6-7276-4fbe-9c1a-583c491fe319",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fcharlie.jpg?alt=media&token=81a1dc08-a9af-4db2-b74d-1f50315f9342",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fcharlie.jpg?alt=media&token=951480f2-0f70-488b-bf8f-cad6312adeef",
     },
     {
       id: 8,
       favourite: false,
       songName: "Mask Off",
       artist: "Future",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FFuture-Mask-Off.mp3?alt=media&token=92d8b60f-2bca-406f-914a-40bfb9a9324a",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FFuture%20-%20Mask%20Off%20(Official%20Music%20Video)%20(320%20kbps).mp3?alt=media&token=76939b64-5675-453b-bdcd-c1f89e8dfa42",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fmask.jpg?alt=media&token=22f0d7be-74b8-4c0d-849d-b777370e9559",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fmaskoff.jpg?alt=media&token=c83ae572-46a6-43b0-920c-f2961f6d4baf",
     },
     {
       id: 9,
       favourite: false,
       songName: "Hey Mama",
       artist: "David Guetta",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FHeyMamaRingtone.mp3?alt=media&token=850148f5-8a15-4f87-995d-711138d5d7a0",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FDavid%20Guetta%20-%20Hey%20Mama%20(Official%20Video)%20ft%20Nicki%20Minaj%2C%20Bebe%20Rexha%20%26%20Afrojack%20(320%20kbps).mp3?alt=media&token=f097a165-079b-48e9-9b52-2e7521e1bfb6",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fheymama.jpg?alt=media&token=2d8e8632-8051-4105-9760-3c715d797802",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fheymamanew.jpg?alt=media&token=1fc5886e-ec5f-47ae-ad78-31c7cab57eb7",
     },
     {
       id: 10,
       favourite: false,
       songName: "Turkish Folk Battle Song",
       artist: "CVR Toon ",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2FPlevne-turkish.mp3?alt=media&token=72f7e03b-2865-4ffb-a2d1-da4c4557fb80",
+      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FCVRTOON%20-%20Plevne%20(Acoustic%20Version)%20(320%20kbps).mp3?alt=media&token=d05322f4-4018-4f44-b633-328fbea9eb27",
       imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fturkish.jpg?alt=media&token=1f44ad17-43a8-4e1d-b232-a78b28cb9fe0",
+        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/img%2Fturkish.jpeg?alt=media&token=a3984ee0-35b7-48a4-80dc-6d4438ce1b2c",
     },
   ];
   
