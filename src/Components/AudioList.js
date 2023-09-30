@@ -1,24 +1,58 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { FaHeadphones, FaHeart, FaRegClock, FaRegHeart } from 'react-icons/fa';
+import {Songs} from './Songs'
+import { MusicPlayer } from './MusicPlayer';
 
 function AudioList() {
+
+    const [songs,setSongs]=useState(Songs);
+    const [song,setSong]=useState(Songs[0].song);
+    const [img,setImg]=useState(Songs[0].imgSrc);
+
+    useEffect(() => {
+        const allLi=document.querySelectorAll(".songs");
+    
+        function changeMenuActive(){
+            allLi.forEach((n) => n.classList.remove("active"));
+            this.classList.add("active");
+        }
+    
+        allLi.forEach((n) => n.addEventListener("click",changeMenuActive))
+      }, []);
+
+    const changeFavourite =(id) => {
+        Songs.forEach((song) => {
+            if(song.id==id){
+                song.favourite=!song.favourite;
+            }
+        });
+        setSongs([...Songs]);
+    };
+
+    const setMainSong =(songSrc,imgSrc) => {
+        setSong(songSrc);
+        setImg(imgSrc);
+    }
+
   return (
     <div className='audioList'>
         <h2 className='title'>
-            The List <span>12 songs</span>
+            The List <span>{`${Songs.length} songs`}</span>
         </h2>
 
-        <div className='songContainer'>
-            <div className='songs'>
-                <div className='count'>#01</div>
+        <div className='songsContainer'>
+
+            {songs && songs.map((song,index) => (
+                <div className='songs' key={song?.id} onClick={() => setMainSong(song?.song,song?.imgSrc)}>
+                <div className='count'>{`#${index+1}`}</div>
                 <div className='song'>
                     <div className='imgBox'>
-                        <img src='' alt='' />
+                        <img src={song?.imgSrc} alt='' />
                     </div>
                     <div className='section'>
                         <p className='songName'>
-                            Take me on
-                            <span className='spanArtist'>Artist Name</span>
+                            {song?.songName}
+                            <span className='spanArtist'>{song?.artist}</span>
                         </p>
 
                         <div className='hits'>
@@ -36,19 +70,29 @@ function AudioList() {
                                 3.04
                             </p>
 
-                            <div className='favourite'>
-                                <i>
+                            <div className='favourite' onClick={() => changeFavourite(song?.id)} >
+                                {
+                                    song?.favourite?
+                                    <i>
                                     <FaHeart />
-                                </i>
-                                <i>
+                                    </i>
+                                    :
+                                    <i>
                                     <FaRegHeart />
-                                </i>
+                                    </i>
+                                }
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            ))}
+
         </div>
+
+        <MusicPlayer />
+
     </div>
   )
 }
