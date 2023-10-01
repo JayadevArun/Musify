@@ -9,7 +9,7 @@ function TrackList() {
         <div className='top'>
             <img src={Track} alt=''/>
             <p className='trackName'>
-                Sample <span className='trackSpan'>Artist</span>
+                Mask Off <span className='trackSpan'>Future</span>
             </p>
         </div>
         <div className='bottom'>

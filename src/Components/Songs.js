@@ -1,6 +1,8 @@
 const Songs = [
     {
       id: 1,
+      time: "2:14",
+      view:"95,480,132",
       favourite: false,
       songName: "Bella Ciao",
       artist: "El Profesor",
@@ -10,6 +12,8 @@ const Songs = [
     },
     {
       id: 2,
+      time: "3:11",
+      view:"65,320,372",
       favourite: false,
       songName: "Beast",
       artist: "Anirudh Ravichander",
@@ -19,6 +23,8 @@ const Songs = [
     },
     {
       id: 3,
+      time: "3:07",
+      view:"87,531,142",
       favourite: false,
       songName: "Joker - Rock and Roll",
       artist: "Hildur Guðnadóttir",
@@ -28,6 +34,8 @@ const Songs = [
     },
     {
       id: 4,
+      time: "2:31",
+      view:"70,341,153",
       favourite: false,
       songName: "I Am A Peaky Blinder",
       artist: "Otnicka",
@@ -37,6 +45,8 @@ const Songs = [
     },
     {
       id: 5,
+      time: "4:28",
+      view:"55,780,192",
       favourite: false,
       songName: "Naanga Vera Maari",
       artist: "Yuvan Shankar Raja",
@@ -46,6 +56,9 @@ const Songs = [
     },
     {
       id: 6,
+      time: "4:21",
+      view:"62,476,984",
+      favourite: false,
       songName: "Your Woman",
       artist: "White Town",
       song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-dcdff.appspot.com/o/song%2FWhite%20Town%20-%20Your%20Woman%20(Official%20HD%20Video)%20(320%20kbps).mp3?alt=media&token=2780b14c-ee68-4d1a-bd4f-517176e300db",
@@ -54,6 +67,8 @@ const Songs = [
     },
     {
       id: 7,
+      time: "3:59",
+      view:"42,563,725",
       favourite: false,
       songName: "Charlie",
       artist: "Gopi Sundar",
@@ -63,6 +78,8 @@ const Songs = [
     },
     {
       id: 8,
+      time: "4:49",
+      view:"71,450,342",
       favourite: false,
       songName: "Mask Off",
       artist: "Future",
@@ -72,6 +89,8 @@ const Songs = [
     },
     {
       id: 9,
+      time: "4:01",
+      view:"98,581,465",
       favourite: false,
       songName: "Hey Mama",
       artist: "David Guetta",
@@ -81,6 +100,8 @@ const Songs = [
     },
     {
       id: 10,
+      time: "3:01",
+      view:"87,349,175",
       favourite: false,
       songName: "Turkish Folk Battle Song",
       artist: "CVR Toon ",

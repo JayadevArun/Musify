@@ -60,14 +60,14 @@ function AudioList() {
                                 <i>
                                     <FaHeadphones />
                                 </i>
-                                95,480,132
+                                {song?.view}
                             </p>
 
                             <p className='duration'>
                                 <i>
                                     <FaRegClock />
                                 </i>
-                                3.04
+                                {song?.time}
                             </p>
 
                             <div className='favourite' onClick={() => changeFavourite(song?.id)} >

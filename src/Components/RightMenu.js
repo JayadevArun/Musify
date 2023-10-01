@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Styles/RightMenu.css";
 import { FaBell, FaCogs, FaCrown, FaRegHeart, FaSun } from 'react-icons/fa';
-import Profile from '../img/profile.jpg'
+import Profile from '../img/JDprofile.jpg'
 
 function RightMenu(){
     return(

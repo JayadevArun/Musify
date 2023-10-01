@@ -1,11 +1,11 @@
 const Playlist=[
     {
         id:1,
-        name:'Top Hit 2021',
+        name:'Top Hit 2023',
     },
     {
         id:2,
-        name:'Dance',
+        name:'Hip Pop',
     },
     {
         id:3,
@@ -17,7 +17,7 @@ const Playlist=[
     },
     {
         id:5,
-        name:'Hip POP',
+        name:'Dance',
     },
     {
         id:6,
