@@ -309,7 +309,7 @@
 
 @media screen and (max-width: 550px) {
     .mainContainer {
-        min-width: 380px;
+        min-width: 300px;
     }
 
     .content {
@@ -327,11 +327,11 @@
     }
 
     .menuList {
-        padding: 5px 10px;
+        padding: 5px 0px;
     }
 
     .menuList ul li {
-        margin: 0 5px;
+        margin: 0 3px;
     }
 
     .menuList p {
@@ -359,5 +359,9 @@
         justify-content: space-between;
         margin-top: 10px;
         width: 100%;
+    }
+
+    .audioList .songsContainer {
+        height: 230px;
     }
 }

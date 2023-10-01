@@ -172,4 +172,8 @@
     .songAttributes .bottom .progressBar {
         width: 65%;
     }
+
+    .musicPlayer .songAttributes {
+        padding-left: 10px;
+    }
 }

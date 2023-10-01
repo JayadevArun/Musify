@@ -290,8 +290,8 @@ font-size: 14px;
 
 @media screen and (max-width: 550px) {
     .leftMenu {
-        width: 64px;
-        min-width: 64px;
+        width: 50px;
+        min-width: 50px;
     }
 
     .leftMenu .searchBox {
@@ -320,5 +320,9 @@ font-size: 14px;
 
     .leftMenu .logoContainer h2 {
         margin-left: 20px;
+    }
+
+    .leftMenu .MenuContainer {
+        margin: 0px 0px;
     }
 }
