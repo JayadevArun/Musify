@@ -33,7 +33,7 @@ function MainContainer(){
                         <a href='#'>Songs</a>
                     </li>
                     <li>
-                        <a href='#'>Fans</a>
+                        <a href='#'>Singles</a>
                     </li>
                     <li>
                         <a href='#'>About</a>
